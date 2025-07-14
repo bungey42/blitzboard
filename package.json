@@ -1,0 +1,9 @@
+{
+  "name": "mustard-blitz-dashboard",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist"
+  }
+}

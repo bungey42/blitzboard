@@ -1,0 +1,1 @@
+// Admin panel with password protection
