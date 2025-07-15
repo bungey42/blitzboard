@@ -1,1 +1,1 @@
-console.log('Mustard Blitz full app loaded');
+console.log('Live Mustard Blitz loaded');
