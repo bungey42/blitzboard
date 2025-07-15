@@ -8,16 +8,9 @@ jobs:
   update-scores:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: 18
-
-      - name: Install Octokit
-        run: npm install @octokit/rest
-
-      - name: Overwrite scores.json
-        run: node .github/scripts/updateScores.mjs "${{ secrets.GH_PAT }}"
+      - run: npm install @octokit/rest
+      - run: node .github/scripts/updateScores.mjs "${{ secrets.GH_PAT }}"
