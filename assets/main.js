@@ -1,1 +1,0 @@
-console.log('Live Mustard Blitz loaded');
