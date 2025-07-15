@@ -20,5 +20,4 @@ jobs:
         run: npm install @octokit/rest
 
       - name: Overwrite scores.json
-        run: |
-          node .github/scripts/updateScores.js "${{ secrets.GH_PAT }}"
+        run: node .github/scripts/updateScores.mjs "${{ secrets.GH_PAT }}"
