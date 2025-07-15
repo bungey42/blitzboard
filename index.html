@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mustard Blitz Leaderboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body { margin: 0; font-family: sans-serif; background: #f9f9f9; color: #333; }
+    header { background: #9ccb3b; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    .logo { height: 40px; }
+    .timer { font-weight: bold; }
+    main { padding: 2rem; }
+    .leaderboard, .admin { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); margin-bottom: 2rem; }
+    h2 { color: #9ccb3b; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/blitzboard/logo.svg" alt="mustard logo" class="logo" />
+    <div class="timer">⏳ Time Remaining: 2h 45m</div>
+  </header>
+  <main>
+    <section class="leaderboard">
+      <h2>🏆 Leaderboard</h2>
+      <p>1. Joe Bungey – 9 pts<br>2. Anna Taylor – 7 pts<br>3. Max Jones – 6 pts</p>
+    </section>
+    <section class="admin">
+      <h2>🎯 Admin Panel</h2>
+      <p>+2 pts added to Max Jones for “Client Meeting”</p>
+    </section>
+    <div class="flash">🚨 Flash: 1 hour remaining!</div>
+  </main>
+</body>
+</html>

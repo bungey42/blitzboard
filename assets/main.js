@@ -1,0 +1,1 @@
+console.log('Mustard Blitz full app loaded');
